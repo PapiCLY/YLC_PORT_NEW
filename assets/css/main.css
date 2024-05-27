@@ -1560,6 +1560,43 @@ input, select, textarea {
 			display: block;
 			width: 100%;
 			border-radius: 10px;
+			transition: border-radius 0.3s ease;
+		}
+
+		.image.fit{
+			position: relative;
+    		overflow: hidden;
+		
+		}
+
+		.image.fit img {
+			width: 100%;
+			height: auto;
+			transition: border-radius 0.3s ease;
+		}
+
+		.image-data {
+			position: absolute;
+			bottom: 0;
+			left: 0;
+			background-color: rgba(0, 0, 0, 0.7); 
+			color: white;
+			padding: 10px;
+			width: 100%;
+			box-sizing: border-box;
+			text-align: center;
+			border-radius: 0 0 10px 10px; 
+			opacity: 0; 
+			visibility: hidden; 
+			transition: opacity 0.3s ease, visibility 0.3s ease; 
+			font-weight: bold;
+		}
+
+	
+
+		.image.fit:hover .image-data {
+			visibility: visible;
+			opacity: 1;
 		}
 
 		.image.fit {
