@@ -1868,6 +1868,7 @@ input, select, textarea {
     padding: 0; 
     display: flex; 
     justify-content: center; 
+	align-items: center;
 }
 
 .icons li {
@@ -1881,21 +1882,21 @@ input, select, textarea {
     transition: color 0.3s ease; 
 }
 
-/* Hover colors */
+
 .icons a:hover.fa-x-twitter {
-    color: #1DA1F2; /* Twitter blue on hover */
+    color: #1DA1F2; 
 }
 
 .icons a:hover.fa-linkedin {
-    color: #0077B5; /* LinkedIn blue on hover */
+    color: #0077B5; 
 }
 
 .icons a:hover.fa-instagram {
-    color: #E1306C; /* Instagram pink on hover */
+    color: #E1306C; 
 }
 
 .icons a:hover.fa-github {
-    color: #333; /* GitHub black on hover */
+    color: #333; 
 }
 
 
