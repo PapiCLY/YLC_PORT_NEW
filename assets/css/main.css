@@ -1863,6 +1863,40 @@ input, select, textarea {
 
 /* Icons */
 
+.icons {
+    list-style: none; 
+    padding: 0; 
+    display: flex; 
+    justify-content: center; 
+}
+
+.icons li {
+    margin: 0 12px; 
+}
+
+.icons a {
+    font-size: 44px; 
+    color: #000; 
+    text-decoration: none; 
+    transition: color 0.3s ease; 
+}
+
+/* Hover colors */
+.icons a:hover.fa-x-twitter {
+    color: #1DA1F2; /* Twitter blue on hover */
+}
+
+.icons a:hover.fa-linkedin {
+    color: #0077B5; /* LinkedIn blue on hover */
+}
+
+.icons a:hover.fa-instagram {
+    color: #E1306C; /* Instagram pink on hover */
+}
+
+.icons a:hover.fa-github {
+    color: #333; /* GitHub black on hover */
+}
 
 
 
