@@ -19,7 +19,7 @@
 			<script type="text/javascript">
 			(function(){
 				emailjs.init({
-					publicKey: "YOUR_PUBLIC_KEY",
+					publicKey: "LFM62r4bZO157p3O7",
 				});
 			})();
 			</script>
@@ -130,24 +130,21 @@
 								<header>
 									<h2>Contact Me</h2>
 								</header>
-								<!-- 869d3356944a1ba91df6cc2502bf5126 -->
-								<form action="https://formsubmit.co/el/confirm/35f8bc12cb54e36f1b53f6a7dcd4ea4e" method="post">
+								
+								<form id="contactForm">
 									<div>
 										<div class="row">
 											<div class="col-6 col-12-medium">
-												<input type="text" name="name" placeholder="Name" />
+												<input type="text" id="name" name="name" placeholder="Name" />
 											</div>
 											<div class="col-6 col-12-medium">
-												<input type="text" name="email" placeholder="Email" />
+												<input type="text" id="email" name="email" placeholder="Email" />
 											</div>
 											<div class="col-12">
-												<input type="text" name="subject" placeholder="Subject" />
+												<input type="text" id="subject" name="subject" placeholder="Subject" />
 											</div>
 											<div class="col-12">
-												<textarea name="message" placeholder="Message" rows="6"></textarea>
-											</div>
-											<div class="col-12">
-											<input type="hidden" name="_next" value="thanks.html">
+												<textarea name="message" id="message" placeholder="Message" rows="6"></textarea>
 											</div>
 											<div class="col-12">
 												<input type="submit" value="Send Message" />
@@ -156,6 +153,12 @@
 									</div>
 								</form>
 							</article>
+
+							  <!-- Modal -->
+							<div id="confirmationModal" style="display:none; position:fixed; top:50%; left:50%; transform:translate(-50%, -50%); background-color:white; padding:20px; border:1px solid #ccc; z-index:1000;">
+								<p>Your message has been received!</p>
+								<button onclick="closeModal()">Close</button>
+							</div>
 
 							<!-- Me -->
 							<article id="socials" class="panel">
@@ -179,6 +182,6 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
-
+			<script src="assets/js/emailjs.js"></script>
 	</body>
 </html>
