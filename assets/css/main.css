@@ -1620,7 +1620,7 @@ input, select, textarea {
     height: 200px; 
     position: relative;
     overflow: hidden;
-    border-radius: 10px;
+    /* border-radius: 5px; */
 	}
 
 		.image img {
