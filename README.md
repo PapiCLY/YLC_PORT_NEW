@@ -2,8 +2,8 @@
 
 Checkout my Portfolio. Still working on a few things, more coming soon!
 
-#Mock-up
+# Mock-up
 ![Alt text](assets/images/port_site.png)
 
-#Deployed Site
+# Deployed Site
 https://ylc.onrender.com
